@@ -58,4 +58,11 @@ body{
     text-align:left;
     margin-left: 20px;
    }
-  
+   .form-input {
+    justify-content: center;
+    margin-left: 80px;
+    margin-right: 80px;
+  }
+  .btn btn-primary{
+    width: 5000px;
+  }
