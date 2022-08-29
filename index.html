@@ -36,7 +36,7 @@
     <div class="container-fluid">
       <div class="row">
         <div id="red-box" class="col-xs-6">
-          <form>
+          <form id="form-list">
             <div class="form-input">
               <label for="name" class="form-label">Destination name</label>
               <input
@@ -71,21 +71,26 @@
             </div>
 
             <div class="form-input">
-              <label for="description" class="form-label"
-                >Description
-                <textarea
-                  id="description"
-                  type="text"
-                  class="form-control"
-                  placeholder="Where is it located?"
-                ></textarea>
-              </label>
+              <label for="description" class="form-label">Description</label>
+              <textarea
+                id="description"
+                type="text"
+                class="form-control"
+                placeholder="Where is it located?"
+              ></textarea>
             </div>
+
             <div class="form-input">
-              <button type="submit" class="btn btn-primary">Add to list</button>
+              <label for="button" class=""form-label"></label>
+              <div class="d-grid gap-2">
+                <button type="button" class="btn btn-primary">
+                  Add to List
+                </button>
+              </div>
             </div>
           </form>
         </div>
+
         <div id="blue-box" class="col-xs-6">
           <div id="purple-box">
             <h5>Enter Destination Details</h5>
