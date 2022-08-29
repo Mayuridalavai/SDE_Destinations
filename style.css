@@ -41,7 +41,7 @@ body{
     border: 5px solid yellow;
     width:415px;
     height:350px;
-    margin-top: auto;
+    margin-top: 2%;
 }
 
 .row {
@@ -58,4 +58,10 @@ body{
     text-align:left;
     margin-left: 20px;
    }
+   #form-list {
+     margin-top: 5%;
+     margin-left: 20%;
+      width: 60%;
+  }
+  
   

@@ -35,7 +35,62 @@
     </div>
     <div class="container-fluid">
       <div class="row">
-        <div id="red-box" class="col-xs-6"></div>
+        <div id="red-box" class="col-xs-6">
+          <form id="form-list">
+            <div class="form-input">
+              <label for="name" class="form-label">Destination name</label>
+              <input
+                id="destination"
+                type="text"
+                class="form-control"
+                placeholder="Enter the name of the destination"
+                required
+              />
+            </div>
+
+            <div class="form-input">
+              <label for="location" class="form-label">Location</label>
+              <input
+                id="location"
+                type="text"
+                class="form-control"
+                placeholder="Where is it located?"
+                required
+              />
+            </div>
+
+            <div class="form-input">
+              <label for="photo" class="form-label">Photo</label>
+              <input
+                id="photo"
+                type="text"
+                class="form-control"
+                placeholder="Enter an image url of the place"
+                required
+              />
+            </div>
+
+            <div class="form-input">
+              <label for="description" class="form-label">Description</label>
+              <textarea
+                id="description"
+                type="text"
+                class="form-control"
+                placeholder="Where is it located?"
+              ></textarea>
+            </div>
+
+            <div class="form-input">
+              <label for="button" class=""form-label"></label>
+              <div class="d-grid gap-2">
+                <button type="button" class="btn btn-primary">
+                  Add to List
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+
         <div id="blue-box" class="col-xs-6">
           <div id="purple-box">
             <h5>Enter Destination Details</h5>
